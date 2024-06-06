@@ -1,0 +1,150 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #b2fba5;
+}
+nav>section{
+    display: flex;
+
+}
+.logo-icon{
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    background-image: url(https://picsum.photos/200);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 14pxs;
+}
+.nav-item{
+    border: 1px solid black;
+    align-self: center;
+    padding: 7px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: darkgreen;
+    height: 10px;
+    text-align: center;
+
+}
+.nav-item:hover{
+    background-color: #80ef80;
+}
+.banner-container{
+    height: 250px;
+    border: 1px solid black;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.facility-list{
+    display: flex;
+    justify-content: space-around;
+}
+.picture{
+    width: 50px; 
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+.list-container{
+    display: flex;
+    justify-content: space-between;
+}
+.Created{
+    font-size: 12px;
+    text-align: right;;
+    background: linear-gradient(150deg,#c3ff93,#ffdb5c,#ffaf61,#ff70ab);
+}
+.result{
+    border: 1px solid black;
+    display: flex;
+    width: 400px;
+    height: 177px;
+    margin-right: 5px;
+}
+.background-gradien{
+    background: linear-gradient(45deg, #aac8a7, #c3edc0, #e9ffc2, #fdffae);
+    background-size: 300% 300%;
+    animation: color 12s ease-in-out infinite;
+}
+@keyframes color{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+div>p{
+    margin-left: 12px;
+    font-size: 15px;
+    height: 15px;
+    width: 435px;
+}
+#submit{
+    width: 62%;
+    background-color: rgb(189, 188, 188);
+    border-radius: 5px;
+}
+#submit:hover{
+    background-color: rgb(155, 155, 155);
+}
+#alam{
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+}
+#alat{
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+}
+#pelukis{
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+}
+.center{
+    text-align: -webkit-center;
+}
+@media screen and (max-width: 600px) {
+    .header-wrapper {
+        flex-direction: column;
+    
+        
+    }
+    nav>section{
+        display: contents;
+        flex-direction: column;
+    
+    }
+    .logo-icon{
+        align-self: center;
+    }
+    .nav-item{
+        width: 100%;
+    }
+    div>p{
+       width:auto;
+
+    }
+    .result{
+        border: 1px solid black;
+        width: auto;
+    }
+}
+.header-wrapper{
+    display: flex;
+}
+.slides.slide img{
+    animation-name: fade;
+    animation-duration: 1s;
+}
+#data{
+    display: grid;
+}
